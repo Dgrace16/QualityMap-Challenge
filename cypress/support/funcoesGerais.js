@@ -9,7 +9,7 @@ function gerarUsuario(sexo, valida) {
     
     let sobrenome = sobrenomes[Math.floor(Math.random() * sobrenomes.length)];
     let nomeEmpresa = empresas[Math.floor(Math.random() * empresas.length)];
-    let email = `${nome}.${sobrenome}@dominio.com`;
+    let email = `${nome}.${sobrenome}@dominio.com.br`;
     email = email.toLowerCase().replace(/[^\w\s.@]/gi, '');
     let senha = GerarSenha(valida);
 
