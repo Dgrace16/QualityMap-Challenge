@@ -18,7 +18,7 @@ Para rodar os testes, siga estas instruções:
 
 1. Clique em "registro" para executar os testes de frontend de registros no site  https://demo.nopcommerce.com
 2. Clique em "validacaoErros" para executar os testes de frontend dos alertas também do site https://demo.nopcommerce.com
-3. clique em "serverRest" para realizar os testes de Backend
+3. clique em "serverRest" para realizar os testes de Backend do https://serverest.dev/
 
 ## Contato
 douglas.centeno@mazzafc.tech
