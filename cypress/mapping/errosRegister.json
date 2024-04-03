@@ -1,0 +1,28 @@
+{
+    "pagina":"Wrong email" ,
+    "nome": {
+        "id": "#FirstName-error",
+        "requer":"First name is required." 
+    },
+    "sobrenome": {
+        "id": "#LastName-error",
+        "requer":"Last name is required." 
+    },
+    "email": {
+        "id": "#Email-error",
+        "requer":"Email is required.",
+        "erro":"Wrong email",
+        "erro2":"The password and confirmation password do not match.",
+        "erro3": "The specified email already exists"
+    },
+    "senha": {
+        "id": "#Password-error",
+        "requer":"Password is required.",
+        "pequeno":"Password must meet the following rules: must have at least 6 characters"
+    },
+    "confirmacaoSenha":{
+        "id": "#ConfirmPassword-error",
+        "requer":"Password is required.",
+        "diferente":"The password and confirmation password do not match."
+    } 
+}

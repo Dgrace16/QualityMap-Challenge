@@ -1,0 +1,261 @@
+- Cenarios de teste 
+
+-- Registros
+    Sexo marculino
+        Titulo: Todos os campos preenchidos
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem data de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto a data de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem ano de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o ano de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem mês de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o mês de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem dia de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o dia de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem nome da empresa
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o nome da empresa
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem aceitar o informativo
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o aceite do informativo
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Somente campos obrigatórios
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho apenas os campos obrigatórios 
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+     
+    Sexo Feminino
+        Titulo: Todos os campos preenchidos
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos 
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem data de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto a data de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem ano de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o ano de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem mês de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o mês de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem dia de nascimento
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o dia de nascimento
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem nome da empresa
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o nome da empresa
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Sem aceitar o informativo
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho todos os campos obrigatórios exceto o aceite do informativo
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+        Titulo: Somente campos obrigatórios
+        Dado que estou na página inicial
+        E eu clico no link "Register"
+        E preencho apenas os campos obrigatórios com informações válidas
+        E clico no botão "Registrar"
+        Quando clico no link "Continue"
+        Então devo ser redirecionado para a página seguinte após o registro
+        E posso fazer login com as credenciais fornecidas
+
+-- Erros 
+    
+    Titulo: Sem preenchimento
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    Quando clico no botão de "Register"
+    Então devo ver mensagens de erro indicando campos obrigatórios
+
+    Titulo: Item obrigatórios menos nome
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de sobrenome aleatorio
+    E preencho o campo de email com um email aleatorio
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que o nome é obrigatório
+
+    Titulo: Item obrigatórios menos sobrenome
+    Dado que estou na página inicial
+    E eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de email com um email aleatorio
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que o sobrenome é obrigatório
+
+    Titulo: Item obrigatórios menos Email
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que o email é obrigatório
+
+    Titulo: Item obrigatórios Email ja cadastrado
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email já cadastrado
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que o email já está em uso
+
+    Titulo: Item obrigatórios Email sem @
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email sem o formato correto
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que o email deve ser válido
+
+    Titulo: Item obrigatórios Email sem .com
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email sem o domínio .com
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que o email deve ter um domínio .com
+
+    Titulo: Item obrigatórios menos senha
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email válido
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que a senha é obrigatória
+
+    Titulo: Item obrigatórios e senha menor que 6 digitos
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email válido
+    E preencho o campo de senha com uma senha menor que 6 caracteres
+    E preencho o campo de confirmação de senha com a mesma senha
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que a senha deve ter pelo menos 6 caracteres
+
+    Titulo: Item obrigatórios menos confimação de senha
+    Dado que estou na página inicial
+    e eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email válido
+    E preencho o campo de senha com uma senha aleatoria
+    Quando clico no botão de "Register"
+    Então devo ver uma mensagem de erro indicando que a confirmação de senha é obrigatória
+
+    Titulo: Item obrigatórios confirmação de senha diferente
+    Dado que estou na página inicial
+    E eu clico no link "Register"
+    E preencho o campo de nome com um nome aleatorio
+    E preencho o campo de sobrenome com um sobrenome aleatotio
+    E preencho o campo de email com um email válido
+    E preencho o campo de senha com uma senha aleatoria
+    E preencho o campo de confirmação de senha com uma senha diferente da senha fornecida anteriormente
+    Quando clico no botão de registro
+    Então devo ver uma mensagem de erro indicando que a confirmação de senha deve ser igual à senha fornecida

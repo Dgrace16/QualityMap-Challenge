@@ -1,0 +1,19 @@
+{
+    "sexo": {
+        "feminino": "#gender-female",
+        "Masculino": "#gender-male"
+    },
+    "nome": "#FirstName",
+    "sobrenome": "#LastName",
+    "dtNascimento": {
+        "dia": "[name='DateOfBirthDay']",
+        "mes":"[name='DateOfBirthMonth']",
+        "ano":"[name='DateOfBirthYear']"
+    },
+    "email": "#Email",
+    "nomeEmpresa": "#Company",
+    "boletim": "#Newsletter",
+    "senha": "#Password",
+    "confirmacaoSenha": "#ConfirmPassword",
+    "btnRegistrar": "#register-button"
+}
