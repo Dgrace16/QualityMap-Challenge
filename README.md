@@ -16,8 +16,10 @@ Para instalar e executar este projeto localmente, siga estas etapas:
  
  ### Via terminal  
 
-no terminal digite 'npm run cy-run' para rodar todos os testes 
+no terminal digite 'npm run cy-run' para rodar todos os testes
+
 no terminal digite 'npm run cy-run-frontend' para rodar  os testes de frontend
+
 no terminal digite 'npm run cy-run-backend' para rodar  os testes de backend
 
 ## Contato
